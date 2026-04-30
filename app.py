@@ -1,19 +1,42 @@
 import streamlit as st
 import os
 
-# 1. Configurações e Logos (Identidade Prefeitura/PROAPE)
+# 1. Configurações e Injeção de CSS
 st.set_page_config(page_title="PNEERQ - Repositório", layout="wide")
 
-col1, col2, col3 = st.columns([1, 4, 1])
+# CSS customizado para aplicar o "verde prefeitura" em todos os botões e arredondar bordas
+st.markdown("""
+    <style>
+    div.stButton > button:first-child {
+        background-color: #196F3D;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        font-weight: bold;
+    }
+    div.stButton > button:first-child:hover {
+        background-color: #145A32;
+        color: white;
+    }
+    /* Reduz o espaçamento superior para subir os elementos */
+    .block-container {
+        padding-top: 2rem;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# 2. Cabeçalho (Título entre os logos e sem linha divisória)
+col1, col2, col3 = st.columns([1, 4, 1], vertical_alignment="center")
 with col1:
-    if os.path.exists("logo_prefeitura.png"): st.image("logo_prefeitura.png", width=120)
+    if os.path.exists("logo_prefeitura.png"): 
+        st.image("logo_prefeitura.png", width=120)
+with col2:
+    st.markdown("<h2 style='text-align: center; margin-bottom: 0;'>REPOSITÓRIO DE SEQUÊNCIAS DIDÁTICAS PNEERQ</h2>", unsafe_allow_html=True)
 with col3:
-    if os.path.exists("logo_proape.png"): st.image("logo_proape.png", width=120)
+    if os.path.exists("logo_proape.png"): 
+        st.image("logo_proape.png", width=160) # Tamanho do logo PROAPE aumentado
 
-st.markdown("<h2 style='text-align: center;'>REPOSITÓRIO DE SEQUÊNCIAS DIDÁTICAS PNEERQ</h2>", unsafe_allow_html=True)
-st.divider()
-
-# 2. Lógica de Navegação em Sessão
+# 3. Lógica de Navegação em Sessão
 if 'pagina' not in st.session_state: st.session_state.pagina = 'home'
 if 'path' not in st.session_state: st.session_state.path = ""
 
@@ -62,7 +85,6 @@ elif st.session_state.pagina in ['eja_ef2_termos', 'eja_em_termos']:
 # --- PÁGINA 4: DISCIPLINAS ---
 elif st.session_state.pagina == 'disciplinas':
     st.subheader("Selecione a Disciplina")
-    # Escolhe a lista de disciplinas baseada na pasta pai
     lista = disciplinas_em if "EJA_EM" in st.session_state.path else disciplinas_reg_ef2
     cols = st.columns(4)
     for i, disc in enumerate(lista):
@@ -87,6 +109,5 @@ elif st.session_state.pagina == 'download':
     else: st.error("Pasta não encontrada. Verifique o nome no GitHub.")
     
     if st.button("⬅️ Voltar para Disciplinas"): 
-        # Volta um nível no caminho
         novo_path = "/".join(st.session_state.path.split('/')[:-1])
         navegar('disciplinas', novo_path)
