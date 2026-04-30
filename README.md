@@ -1,2 +1,2 @@
 # repositorio-pedagogico
-Repositório de sequências didáticas de matemática - PNEERQ
+Repositório de sequências didáticas - PNEERQ
