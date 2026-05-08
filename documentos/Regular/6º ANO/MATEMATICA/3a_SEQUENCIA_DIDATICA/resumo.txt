@@ -1,0 +1,5 @@
+A Ciência das Mãos e da Terra: A Matemática Guarani
+
+Habilidade (EF06MAER02): Valorizar o sistema de numeração guarani sob a luz da etnomatemática
+
+Essa sequencia didática propõe explorar a lógica de contagem de base quinária (base 5) utilizada por comunidades indígenas brsileiras. A proposta conecta o conhecimento matemático à observação da natureza, especificamente à anatomia humana (os cinco dedos da mão) e à botânica, utilizando o caule da mandioca e suas gemas como modelo para um sistema de registro visual composto por traços e círculos. O objetivo central é promover uma educação antirracista através da etnomatemática, desconstruindo a ideia de que a ciência é um privilégio europeu e apresentando a roça e a tradição indígena como laboratórios de alta tecnologia. 
