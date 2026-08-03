@@ -1,0 +1,7 @@
+Geometria Sona: Algoritmos e Labirintos na Areia
+
+Habilidade (EF69MAER01): Introduzir o estudo da geometria através de suas origens africanas e ameríndias históricas.
+
+Esta sequência didática propõe descolonizar o ensino da geometria no 6º ano do Ensino Fundamental ao resgatar a sofisticada tradição dos Sona (plural de Lusona), desenvolvida pelo povo Chokwe na África Central (região de Angola e Congo). O foco central da proposta é a exploração de desenhos tradicionais na areia estruturados como redes de pontos geométricos envolvidos por linhas contínuas. Ao correlacionar a arte ancestral com as habilidades da BNCC (EF06MA16, EF06MA18 e EF06MA23), a sequência introduz de forma lúdica, empírica e concreta conceitos fundamentais como coordenadas cartesianas na malha de pontos, classificação de polígonos, contagem de vértices, simetria e caminhos eulerianos topológicos.
+
+Ao longo de cinco aulas baseadas em metodologias ativas e na estratégia da Ginga Pedagógica, os estudantes assumem o papel de "escritores de Sona", transitando da contação de histórias tradicionais para a experimentação em malhas quadriculadas de papel, tabuleiros físicos de areia e simuladores digitais de grafos. A proposta combate o epistemicídio curricular ao demonstrar que princípios de lógica de programação e pensamento algorítmico já eram dominados no continente africano séculos antes da revolução computacional europeia, promovendo a justiça epistêmica, a valorização do patrimônio cultural não ocidental e o fortalecimento da autoestima intelectual dos discentes.
