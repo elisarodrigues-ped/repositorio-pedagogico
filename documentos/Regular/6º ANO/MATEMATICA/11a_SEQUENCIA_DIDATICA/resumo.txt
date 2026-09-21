@@ -1,0 +1,9 @@
+Sequência Didática 11 - Fractais Africanos: Tranças e Cidades em Escala
+
+Habilidade: EF06MA21 / EF06MA29 / EF06MAER01
+
+Resumo:
+
+Esta sequência didática explora a geometria fractal e os conceitos de autossimilaridade, ampliação em escala, perímetro e área a partir da matriz cultural africana. Tendo como ponto de partida o estudo da arquitetura das aldeias ancestrais de Logone Birni (Camarões) e a tecnologia das tranças nagô, os alunos analisam como algoritmos de repetição foram desenvolvidos e aplicados historicamente no continente africano.
+
+Ao longo das aulas, os estudantes realizam atividades práticas de ampliação e redução de polígonos em malhas quadriculadas, investigando o comportamento proporcional dos perímetros e a expansão quadrática das áreas. A proposta articula o rigor técnico da matemática do 6º ano do Ensino Fundamental com o combate ao epistemicídio, promovendo uma reflexão crítica e emancipatória sobre as origens e a diversidade das ciências.
